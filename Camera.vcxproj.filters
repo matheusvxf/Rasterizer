@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Components\source\Base.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Keyboard.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Utility.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\World.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Camera.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Color.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Source\Matrix4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Source\Vector4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Source\Vector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Ball.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Bunny.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Cube.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Dragon.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\House.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Object.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\PointImageObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Rasterizer.cpp">
+      <Filter>Rasterizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\ViewPortMatrix.cpp">
+      <Filter>Rasterizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\ProjectionMatrix.cpp">
+      <Filter>Rasterizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\TestObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Light.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\DiffuseLight.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Components\include\Config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\DataType.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Keyboard.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Matrix4.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Utility.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Vector3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Vector4.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Ball.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Object.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Cube.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\World.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Base.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\House.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Camera.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Bunny.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Dragon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\PointImageObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\tga.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\TestObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Color.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\ViewPortMatrix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\ProjectionMatrix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Rasterizer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Light.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\DiffuseLight.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{f62fa3d3-eacf-4cff-8d70-912b9f6b78e4}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{a8600ea7-237a-45c0-9361-8c7f4c142e45}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{3f08af24-8b0a-44d0-a053-e422ded649d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{cbb98ff5-0767-451a-b75d-f3aa41fa87f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer">
+      <UniqueIdentifier>{0eda4ad3-4be3-42dd-a3b4-e01c939b7e70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
